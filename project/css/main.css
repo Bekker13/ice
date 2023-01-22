@@ -1,0 +1,108 @@
+/* defoult */
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* text-logo style */
+.nav-logo-text {
+  font-family: 'Roboto' , sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+.nav-logo-text {
+  color: #000;
+}
+
+a span {
+  color: #2196F3;
+}
+
+/* nav */
+
+.nav-item {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #2196F3;
+}
+
+
+
+address a {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+/* contentNav */
+
+.nav-btn-item a{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #212121;
+}
+
+.nav-btn-item a:hover{
+  color: #2196F3;
+}
+
+/* contentCard */
+
+.card-item h2 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+  font-style: 18px;
+  line-height: 36x;
+
+  color: #212121;
+}
+
+.card-item p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #757575;
+}
+
+.card-item p:last-child {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #3b607e88;
+}
+
+
+
+
+
