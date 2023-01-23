@@ -1,3 +1,8 @@
+html {
+  background-color: #ffffff;
+}
+
+
 /* defoult */
 a {
   text-decoration: none;
@@ -7,9 +12,10 @@ ul {
   list-style: none;
 }
 
+
 /* text-logo style */
 .nav-logo-text {
-  font-family: 'Roboto' , sans-serif;
+  font-family: 'Raleway' , sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 31px;
@@ -44,7 +50,7 @@ cursor: pointer;
 
 
 
-address a {
+.contact a {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -54,7 +60,139 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-/* contentNav */
+.contact a:hover {
+  color: #2196F3;
+}
+
+.title {
+  font-family: 'Roboto' , sans-serif;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #afa2a2;
+
+}
+
+.title-page {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+
+  line-height: 30px;
+
+  color: rgb(144, 128, 128);
+}
+
+
+.caption  h3 {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #212121;
+
+  line-height: 16.41px;
+}
+
+.caption p {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 24px;
+
+  color: #757575;
+}
+
+
+.subject {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+
+  line-height: 42.19px;
+
+  text-align: center;
+}
+
+
+.command-style {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+
+  line-height: 42.19px;
+
+  text-align: center;
+}
+
+.thumb p {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 18.75px;
+
+  color: #212121;
+
+  text-align: center;
+}
+
+.thumb p:last-of-type {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 18.75px;
+
+  color: #757575;
+
+  text-align: center;
+}
+/* Footer */
+
+.footer-logo {
+  font-family: 'Raleway' , sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+
+  color: #FFFFFF;
+}
+
+.footer-logo  span {
+  color: #2196F3;
+}
+
+.footer-add {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 24px;
+
+  color: #FFFFFF;
+}
+
+.footer-item a {
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  line-height: 24px;
+
+  color: #ffffff6f;
+}
+.footer-item a:hover {
+  color: #2196F3;
+}
+
+
+/* contentNav Po*/
 
 .nav-btn-item a{
   font-family: 'Roboto', sans-serif;
