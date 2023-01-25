@@ -64,6 +64,14 @@ color: #757575;
   color: #2196F3;
 }
 
+/* hero section */
+
+.hero {
+  background-color: #2F303A;
+
+  text-align: center;
+}
+
 .title {
   font-family: 'Roboto' , sans-serif;
   font-size: 44px;
@@ -73,7 +81,7 @@ color: #757575;
   text-align: center;
   text-transform: uppercase;
 
-  color: #afa2a2;
+  color: #FFFFFF;
 
 }
 
@@ -83,7 +91,8 @@ color: #757575;
   font-size: 16px;
 
 
-  color: rgb(144, 128, 128);
+  color: #ffffff
+  
 }
 
 
@@ -116,6 +125,10 @@ color: #757575;
 }
 
 
+.command {
+  background-color: #F5F4FA;
+}
+
 .command-style {
   font-family: 'Roboto' , sans-serif;
   font-weight: 700;
@@ -147,6 +160,10 @@ color: #757575;
   text-align: center;
 }
 /* Footer */
+.footer {
+  background-color: #2F303A;
+}
+
 
 .footer-logo {
   font-family: 'Raleway' , sans-serif;

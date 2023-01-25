@@ -1,0 +1,107 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class],
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+button {
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+body {
+  font-family: "FuturaBT-Book";
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: text;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  // max-width: 100%;
+  display: block;
+}
+
+/* класс для индикации блоков */
+.outline_red {
+  border: 1px solid;
+  border-color: red;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+// input,
+// button,
+// textarea,
+// select {
+//   font: inherit;
+// }
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/*Один общий оутлайн для отмечания компонентов на верстаемых страницах*/
+.devOutline {
+  outline-color: red;
+  outline-width: 1px;
+  outline-style: inset;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
