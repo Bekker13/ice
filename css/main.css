@@ -18,7 +18,7 @@ ul {
   font-family: 'Raleway' , sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 31;
 }
 
 .nav-logo-text {
@@ -55,7 +55,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 16;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -67,7 +67,7 @@ color: #757575;
 .title {
   font-family: 'Roboto' , sans-serif;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 60;
   font-weight: 900;
 
   text-align: center;
@@ -82,7 +82,7 @@ color: #757575;
   font-weight: 700;
   font-size: 16px;
 
-  line-height: 30px;
+  line-height: 30;
 
   color: rgb(144, 128, 128);
 }
@@ -95,7 +95,7 @@ color: #757575;
 
   color: #212121;
 
-  line-height: 16.41px;
+  line-height: 16.41;
 }
 
 .caption p {
@@ -103,7 +103,7 @@ color: #757575;
   font-weight: 400;
   font-size: 14px;
 
-  line-height: 24px;
+  line-height: 24;
 
   color: #757575;
 }
@@ -114,7 +114,7 @@ color: #757575;
   font-weight: 700;
   font-size: 36px;
 
-  line-height: 42.19px;
+  line-height: 42.19;
 
   text-align: center;
 }
@@ -125,7 +125,7 @@ color: #757575;
   font-weight: 700;
   font-size: 36px;
 
-  line-height: 42.19px;
+  line-height: 42.19;
 
   text-align: center;
 }
@@ -135,7 +135,7 @@ color: #757575;
   font-weight: 500;
   font-size: 16px;
 
-  line-height: 18.75px;
+  line-height: 18.75;
 
   color: #212121;
 
@@ -147,7 +147,7 @@ color: #757575;
   font-weight: 400;
   font-size: 16px;
 
-  line-height: 18.75px;
+  line-height: 18.75;
 
   color: #757575;
 
@@ -159,7 +159,7 @@ color: #757575;
   font-family: 'Raleway' , sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 31px;
+  line-height: 31;
 
   color: #FFFFFF;
 }
@@ -173,7 +173,7 @@ color: #757575;
   font-weight: 400;
   font-size: 14px;
 
-  line-height: 24px;
+  line-height: 24;
 
   color: #FFFFFF;
 }
@@ -183,7 +183,7 @@ color: #757575;
   font-weight: 400;
   font-size: 14px;
 
-  line-height: 24px;
+  line-height: 24;
 
   color: #ffffff6f;
 }
@@ -199,7 +199,7 @@ color: #757575;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 26;
 
   color: #212121;
 }
@@ -215,7 +215,7 @@ color: #757575;
   font-weight: 700;
   font-style: normal;
   font-style: 18px;
-  line-height: 36x;
+  line-height: 36;
 
   color: #212121;
 }
@@ -225,7 +225,7 @@ color: #757575;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 30;
 
   color: #757575;
 }
@@ -235,7 +235,7 @@ color: #757575;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 30;
 
   color: #3b607e88;
 }
