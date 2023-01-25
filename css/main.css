@@ -30,6 +30,9 @@ a span {
 }
 
 /* nav */
+.nav-title {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .nav-item {
 font-family: 'Roboto';
@@ -91,7 +94,11 @@ color: #757575;
   font-size: 16px;
 
 
+  background-color: #2196F3;
+  border-radius: 4px;
+
   color: #ffffff
+  
   
 }
 
@@ -181,7 +188,7 @@ color: #757575;
   font-family: 'Roboto' , sans-serif;
   font-weight: 400;
   font-size: 14px;
-
+  font-style: normal;
 
   color: #FFFFFF;
 }
@@ -208,10 +215,15 @@ color: #757575;
   font-size: 16px;
 
   color: #212121;
+
+  background-color: #F5F4FA;
+
+  border-radius: 4px;
 }
 
 .nav-btn-item a:hover{
-  color: #2196F3;
+  background-color: #2196F3;
+  color: #FFFFFF;
 }
 
 /* contentCard */
@@ -223,6 +235,7 @@ color: #757575;
   font-style: 18px;
 
   color: #212121;
+
 }
 
 .card-item p {
